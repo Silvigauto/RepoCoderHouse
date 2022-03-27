@@ -274,7 +274,32 @@ body {
 	 	padding: 5px;
 	 }
 
+/*TRANSFORMACIONES Y TRANSICIONES */
 
+body {
+	background: rgb(230,125,171);
+	background: linear-gradient(0deg, rgba(230,125,171,1) 0%, rgba(159,188,224,1) 84%, rgba(148,187,233,1) 87%);
+	background-size: cover;
+
+	
+}
+
+.nav ol li:hover {
+	transform: scale(1.19);
+	transition: 0.3s;
+}
+
+.footer a img:hover {
+	transform: scale(1.19);
+	transition: 0.3s;
+} 
+
+.boton1:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: 0.3s;
+	 	
+	 }
 	 
 /* media queries*/
 
