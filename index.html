@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Lollapalooza</title>
+		<link rel="stylesheet" href="css/style.css">
+		
+
+	</head>
+
+	<body>
+		<div id="contenedor" >
+
+			<!-- BARRA SUPERIOR FECHAS -->
+			<div class="banner">
+				<p>17,18 y 19 de marzo en el Hipodromo de San Isidro </p>
+			</div>
+
+		
+
+			<!-- LOGO y BOTONERA-->
+				<nav class="nav" >
+					<a href="index.html"> <img src="img/logo.png" class="logo" alt="Logo de Lollapallooza"  > </a>
+						
+					<ol >
+						<li><a href="ubicacion.html">Ubicación</a></li>
+						<li><a href="entradas.html">Entradas</a></li>
+						<li><a href="artistas.html">Artistas</a></li>
+						<li><a href="edicionespasadas.html">Ediciones Pasadas</a></li>
+						<li><a href="#contactanos">Contactanos</a></li>
+					</ol>
+				</nav>
+				
+			<main >
+				<!-- CARROUSEL DE FOTOS -->
+				<section class="header" >
+					<img src="img/festival.jpg" alt="Foto del festival" class="width height" >
+				</section>
+
+				<!-- INFO "SOBRE NOSOTROS" -->
+														
+				<article class="nosotros fondo3 padding lineHeight margin">
+
+					<div class="sobreN">
+						<h1 class="tipoLetra tamañoLetra2 padding2">
+							Sobre Nosotros
+						</h1>
+						<p > 
+							Somos una página dedicados al festival internacional mas grande de Argentina, donde todos los años vienen artistas de todo género y de todas partes del mundo. ¡No te pierdas la próxima edición que acá te contamos toda la info necesaria!
+						</p>
+					</div>
+					<div class="img">
+						<img src="img/foto2.jpg" alt="foto 2 festival" class="tamanofoto padding">
+					</div>
+				</article>
+									
+				<!-- INFO "CONTACTANOS" -->
+				<nav class="fondo3 padding margin lineHeight contactanos">
+
+					<div class="datosP">
+					
+					<form action="envio.php" method="post" class="form">
+						<h2 class="tipoLetra tamañoLetra2 padding2  ">Contactanos</h2>
+						
+						<legend >
+							Datos Personales
+						</legend>	
+						<p>					
+							<label for="nombre">
+								Nombre y Apellido
+							</label>
+						</p>
+										
+							<input type="text" placeholder="Silvina Gauto" name="nombre" id="nombre">
+						
+						<p>
+							<label for="email" >Email</label>
+						</p>
+							<input type="email" placeholder="silvigauto02@gmail.com" name="email" id="email">
+																		
+					</form>	
+					</div>	
+
+					<!-- DEJA TU MENSAJE -->
+					<div class="dejatuM">
+						<label for="mensaje ">
+							<legend class="textAlign padding2">
+							 	Deja tu mensaje
+							</legend>
+						</label>
+								
+						<textarea name="mensaje" id="mensaje" cols="30" rows="10">
+						</textarea>
+
+						<div class="boton">							
+							<input class="boton1" 	type="submit" value="Enviar">
+						</div>
+
+					</div>	
+
+					<img src="img/foto.jpg" alt="foto festival" class="tamanofoto padding">
+						
+				</nav>
+
+				<!-- <section >
+					<p class="galeria textAlign">
+					¡Nuestra galeria!
+					</p> -->
+
+					<!-- <div class="fotos">
+						<img src="img/foto.jpg" alt="foto festival" class="tamanofoto padding"> -->
+						<!-- <img src="img/foto2.jpg" alt="foto 2 festival" class="tamanofoto padding">
+					</div> -->	
+				<!-- </section>	 -->
+
+			</main>
+
+
+			<!-- FOOTER -->
+			<footer class="footer" class=" lineHeight2" >
+				<h3 >Redes sociales</h3>
+
+				<div>
+
+					<a href="https://www.instagram.com/lollapaloozaar/?hl=es" target="_blank">
+						<img src="img/ig.jpg" alt="Logo Instagram" width="50px">
+					</a>
+
+					<a href="https://twitter.com/lollapaloozaar?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">	<img src="img/twitter.png" alt="Logo Twitter" width="50px">
+					</a>
+							
+					<a href="https://www.youtube.com/channel/UC87T78G5VWLc28nKMd5KAHw" target="_blank">
+						<img src="img/yt.png" alt="Logo Youtube" width="50px">
+					</a>	
+			    </div>	
+			</footer>
+		</div>
+
+	</body>
+
+</html>
